@@ -23,7 +23,7 @@ requirements:
     - setuptools-scm
   run:
     - python >={{ python_min }}
-    - numpy>=2.3
+    - numpy >=2.3
     - pyyaml
     - deap
     - pytorch
@@ -34,7 +34,7 @@ requirements:
     - orjson
     - matplotlib-base
     - gest-api
-    - scipy>=1.10.1
+    - scipy >=1.10.1
 
 test:
   imports:
@@ -62,3 +62,4 @@ extra:
   recipe-maintainers:
     - ChristopherMayes
     - Roussel-Ryan
+    - pluflou
